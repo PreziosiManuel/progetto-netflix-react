@@ -8,13 +8,13 @@ const NetflixFooter = () => {
       <Row className="justify-content-center mt-5 text-secondary text-center">
         <Row className="mb-2">
           <Col md={3}>
-            <Facebook size="1.4rem" className="mx-2" />
-            <Instagram size="1.4rem" className="mx-2" />
-            <Twitter size="1.4rem" className="mx-2" />
-            <Youtube size="1.4rem" />
+            <Facebook className="mx-2 fs-4" />
+            <Instagram className="mx-2 fs-4" />
+            <Twitter className="mx-2 fs-4" />
+            <Youtube className="mx-2 fs-4" />
           </Col>
         </Row>
-        <Row xs={2} sm={3} md={4} lg={4} className="mb-3">
+        <Row xs={1} sm={2} md={3} lg={4} className="mb-3">
           <Col md={3}>
             <p>
               <a href="#audioandsubtitles" className="text-secondary">
