@@ -1,4 +1,5 @@
 import { Row, Col, Dropdown, Container } from "react-bootstrap";
+import { Grid, TextLeft } from "react-bootstrap-icons";
 
 const NetflixHeroHeader = () => {
   return (
@@ -14,6 +15,11 @@ const NetflixHeroHeader = () => {
               <Dropdown.Item href="#">Thriller</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+        </Col>
+
+        <Col md={1} className="d-flex justify-content-end">
+          <TextLeft className="fs-3 m-1 p-1 border border-1" />
+          <Grid className="fs-3 m-1 p-1 border border-1" />
         </Col>
       </Row>
     </Container>

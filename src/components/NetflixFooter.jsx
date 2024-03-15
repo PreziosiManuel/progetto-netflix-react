@@ -4,7 +4,7 @@ import { Facebook, Instagram, Twitter, Youtube } from "react-bootstrap-icons";
 
 const NetflixFooter = () => {
   return (
-    <Container fluid>
+    <Container>
       <Row className="justify-content-center mt-5 text-secondary text-center">
         <Row className="mb-2">
           <Col md={3}>
